@@ -1,14 +1,21 @@
 import { FaInstagram } from "react-icons/fa6";
+import foto from "../Styles/foto-kevin.jpg";
 
 export default function About() {
     return (
-        <div class="flex justify-between">
+        <div class="inline items-center justify-center my-20 s:flex">
+            <img
+                src={foto}
+                alt="Foto Kevin"
+                class="w-64 h-64 mr-8 rounded-md"
+            />
+
             <div>
-                <h1 class="text-4xl">
+                <h1 class="text-4xl pb-2">
                     Olá, sou o{" "}
-                    <mark class="text-lime-400 bg-transparent">Kevin</mark>
+                    <mark class="text-pink-600 bg-transparent">Kevin</mark>
                 </h1>
-                <p class=" max-w-lg">
+                <p class="max-w-sm md:max-w-xl pb-2">
                     Trabalho como designer com 5 anos de experiência, e
                     atualmente estou me dedicando ao estudo de C# e .NET para
                     fazer uma transição na minha carreira. Estou animado para
@@ -18,20 +25,13 @@ export default function About() {
                 </p>
                 <button
                     class="flex items-center w-fit h-fit pl-4 pr-10 py-2.5 text-neutral-300 bg-neutral-800 border 
-                    border-neutral-700 rounded-md hover:border-lime-400 transition ease-in-out"
+                    border-neutral-700 rounded-md hover:border-pink-600 transition ease-in-out"
                     type="submit"
                 >
                     <FaInstagram class="size-7 pr-2" />
                     Instagram
                 </button>
-                {/* <div class="flex items-center w-fit h-fit pl-4 pr-10 py-2.5 bg-neutral-800 border border-neutral-700">
-                    <FaInstagram class="size-7 pr-2" />
-                    <button type="submit" href="">
-                        Instagram
-                    </button>
-                </div> */}
             </div>
-            <div class="bg-white w-64 h-64" />
         </div>
     );
 }

@@ -16,3 +16,7 @@ p {
 .Icone {
     color: #d4d4d4;
 }
+
+::selection {
+    background-color: #db2777;
+}
