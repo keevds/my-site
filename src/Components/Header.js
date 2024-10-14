@@ -9,7 +9,7 @@ export default function Header() {
         <div class="flex items-center justify-between mt-6 border-y border-neutral-800 h-20 px-6">
             <img src={logo} alt="Logo" class="size-20" />
             <nav
-                class="flex items-center justify-between pr-8 pl-8 space-x-4 w-60 h-12 border 
+                class="hidden s:flex items-center justify-between pr-8 pl-8 space-x-4 w-60 h-12 border 
             border-neutral-800 rounded-full"
             >
                 <a href="/">

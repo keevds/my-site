@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 export default function App() {
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
             <div class="container lg:mx-auto px-12">
                 <div class="flex flex-col items-center">
                     <About />

@@ -58,10 +58,10 @@ export default function Study() {
                     PostgreSQL
                 </button>
             </div>
-            <div>
-                <h1 class="text-4xl pb-2">
+            <div class="mx-w-sm">
+                <h1 class="text-3xl pb-2">
                     Tecnologias que eu
-                    <br class="sd:hidden" /> estou{" "}
+                    <br class="" /> estou{" "}
                     <mark class="text-pink-600 bg-transparent">estudando</mark>
                 </h1>
                 <p class="max-w-md">

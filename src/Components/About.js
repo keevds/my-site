@@ -3,7 +3,7 @@ import foto from "../Styles/foto-kevin.jpg";
 
 export default function About() {
     return (
-        <div class="inline items-center justify-center my-20 s:flex">
+        <div class="inline items-center justify-center mt-10 s:mb-20 s:mt-32 s:flex">
             <img
                 src={foto}
                 alt="Foto Kevin"
@@ -11,7 +11,7 @@ export default function About() {
             />
 
             <div>
-                <h1 class="text-4xl pb-2">
+                <h1 class="text-3xl pb-2">
                     Olá, sou o{" "}
                     <mark class="text-pink-600 bg-transparent">Kevin</mark>
                 </h1>
@@ -28,8 +28,15 @@ export default function About() {
                     border-neutral-700 rounded-md hover:border-pink-600 transition ease-in-out"
                     type="submit"
                 >
-                    <FaInstagram class="size-7 pr-2" />
-                    Instagram
+                    <a
+                        class="flex"
+                        href="https://www.instagram.com/kevinbbarbosa/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FaInstagram class="size-7 pr-2" />
+                        Instagram
+                    </a>
                 </button>
             </div>
         </div>
