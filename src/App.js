@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./Components/Header";
-import About from "./Components/About";
-import Study from "./Components/Study";
 import Footer from "./Components/Footer";
+
+import AppRoutes from "./Router";
 
 export default function App() {
     return (
@@ -10,8 +10,7 @@ export default function App() {
             <Header />
             <div class="container lg:mx-auto px-12">
                 <div class="flex flex-col items-center">
-                    <About />
-                    <Study />
+                    <AppRoutes />
                 </div>
             </div>
             <Footer />

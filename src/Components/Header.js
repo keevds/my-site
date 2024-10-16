@@ -17,7 +17,7 @@ export default function Header() {
                         Inicio
                     </p>
                 </a>
-                <a href="/">
+                <a href="/sobre">
                     <p class="hover:text-pink-600 transition ease-in-out">
                         Sobre
                     </p>

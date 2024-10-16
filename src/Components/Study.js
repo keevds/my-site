@@ -65,8 +65,8 @@ export default function Study() {
                     <mark class="text-pink-600 bg-transparent">estudando</mark>
                 </h1>
                 <p class="max-w-md">
-                    Meu foco agora é em me aprimorar no C# e .NET e entender
-                    todos os processos do back-end.
+                    Meu foco agora é em me aprimorar no <b>C# e .NET</b> e
+                    entender todos os processos do back-end.
                 </p>
             </div>
         </div>

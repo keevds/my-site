@@ -16,12 +16,13 @@ export default function About() {
                     <mark class="text-pink-600 bg-transparent">Kevin</mark>
                 </h1>
                 <p class="max-w-sm md:max-w-xl pb-2">
-                    Trabalho como designer com 5 anos de experiência, e
-                    atualmente estou me dedicando ao estudo de C# e .NET para
-                    fazer uma transição na minha carreira. Estou animado para
-                    aplicar minhas experiências anteriores e habilidades
-                    adquiridas nesta nova fase profissional. Estou sempre em
-                    busca de novos desafios e aprendizados!
+                    Tenho 5 anos de experiência como designer gráfico e
+                    atualmente estou no{" "}
+                    <b>1º semestre de Engenharia de Software</b>, em busca da
+                    minha primeira oportunidade como desenvolvedor. Pretendo
+                    aplicar minhas experiências anteriores e as habilidades que
+                    adquiri nesta nova fase da minha carreira, sempre em busca
+                    de novos desafios e aprendizados!
                 </p>
                 <button
                     class="flex items-center w-fit h-fit pl-4 pr-10 py-2.5 text-neutral-300 bg-neutral-800 border 
