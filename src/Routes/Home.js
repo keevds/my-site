@@ -4,8 +4,10 @@ import Study from "../Components/Study";
 export default function Home() {
     return (
         <div>
-            <About />
-            <Study />
+            <div>
+                <About />
+                <Study />
+            </div>
         </div>
     );
 }
